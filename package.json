@@ -4,8 +4,10 @@
   "dependencies": {
     "@rails/webpacker": "^3.2.0",
     "coffeescript": "1.12.7",
-    "normalize.css": "^7.0.0"
-  }, "scripts": {
+    "normalize.css": "^7.0.0",
+    "postcss-nested": "^3.0.0"
+  },
+  "scripts": {
     "lint-staged": "$(yarn bin)/lint-staged"
   },
   "lint-staged": {
@@ -29,7 +31,6 @@
     "lint-staged"
   ],
   "devDependencies": {
-    "webpack-dev-server": "^2.11.0",
     "babel-eslint": "^8.0.1",
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.1",
@@ -40,7 +41,7 @@
     "lint-staged": "^4.2.3",
     "pre-commit": "^1.2.2",
     "prettier": "^1.7.3",
-    "stylelint": "^8.4.0"
+    "stylelint": "^8.4.0",
+    "webpack-dev-server": "^2.11.0"
   }
 }
-
