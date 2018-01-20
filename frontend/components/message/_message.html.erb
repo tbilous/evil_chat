@@ -3,6 +3,11 @@
     <span class="message--author">
       <%= message.author %>
     </span>
+    <span>
+      <%- if @user = message.author %>
+        Me
+      <%- end %>
+    </span>
     <span class="message--time">
       <% if message.created_at > Time.now - 24.hours %>
         <%= l(message.created_at, format: :short) %>
