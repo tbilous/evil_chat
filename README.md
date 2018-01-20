@@ -22,3 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+https://github.com/rails/webpacker/blob/master/docs/cloud9.md#binstub-versions
