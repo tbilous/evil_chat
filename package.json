@@ -4,10 +4,14 @@
   "dependencies": {
     "@rails/webpacker": "^3.2.0",
     "actioncable": "^5.1.4",
+    "bootstrap": "4.0.0-beta",
     "coffeescript": "1.12.7",
+    "jquery": "^3.3.0",
     "normalize.css": "^7.0.0",
+    "popper.js": "^1.12.9",
     "postcss-nested": "^3.0.0",
-    "stylelint-config-recommended": "^2.0.1"
+    "stylelint-config-recommended": "^2.0.1",
+    "webpack": "^3.10.0"
   },
   "scripts": {
     "lint-staged": "$(yarn bin)/lint-staged"
