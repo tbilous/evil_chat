@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title
+      | EvilChat
+    = csrf_meta_tags
+    = stylesheet_pack_tag 'application'
+  body
+    = yield
+    = javascript_pack_tag  'application'
