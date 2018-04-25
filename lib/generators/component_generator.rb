@@ -1,5 +1,5 @@
 class ComponentGenerator < Rails::Generators::Base
-  argument :component_name, required: true, desc: "Component name, e.g: button"
+  argument :component_name, required: true, desc: 'Component name, e.g: button'
 
   def create_view_file
     create_file "#{component_path}/_#{component_name}.html.erb"

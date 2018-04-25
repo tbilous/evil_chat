@@ -19,4 +19,7 @@
 .byebug_history
 /public/packs
 /public/packs-test
-/node_modules
+.idea
+/.ruby-gemset
+/.ruby-version
+/config/webpacker.yml
