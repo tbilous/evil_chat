@@ -5,21 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.4.1, Rails 5.1.4 
 
-* System dependencies
+* System dependencies: node.js, yarn, git
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-https://github.com/rails/webpacker/blob/master/docs/cloud9.md#binstub-versions
+* Installation
+```
+bundle install
+rake db:setup
+```
+* Start develop `foreman start -f Procfile.dev`, open in browser http://localhost:5000
